@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta
+        name="keywords"
+        content="Avinash, Dengani, Avinash Dengani, about, Portfolio, Portfolio Avinash, Avinash's Portfolio, GitHub, HTML, CSS, JavaScript, PHP, avinashdengani.tech, avinashdengani"/>
+
+    <meta name="author" content="Avinash Dengani"/>
+    <meta
+		name="description"
+		content="Portfolio of Avinash Dengani"/> -->
+
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Swaraj Gadhave </title>
+    
+    <!-- BOOTSTRAP-->
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+        crossorigin="anonymous">
+    
+    <!-- FONT-AWESOME -->
+    <link 
+        rel="stylesheet" 
+        href="assets/css/vendors/fontawesome.all.css"/>
+
+    <!-- GOOGLE FONTS -->
+    <link 
+        rel="preconnect" 
+        href="https://fonts.googleapis.com">
+    <link 
+        rel="preconnect" 
+        href="https://fonts.gstatic.com" 
+        crossorigin>
+    <!-- JQUERY UI -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" 
+        rel="stylesheet">
+    
+    <!-- ANIMATE.CSS -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- OWL CAROUSEL -->
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
+    <!-- Responsive Tabs -->
+    <link rel="stylesheet" href="assets/css/vendors/responsive-tabs.css">
+    <!--NORMALIZE CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/normalize.css">
+    <!-- GROWL -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jgrowl/1.4.8/jquery.jgrowl.min.css" integrity="sha512-bHAmDko6dIkQXQGO56+bsFtl7FJEuzQ0qKsB+cpdzmOV0D7ONYYwfV8ub+7yevWSCZgP10lIy7aTW8eKv5IgTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Preloader -->
+        <div id="preloader" class="user-select-none">
+            <div id="status" class="user-select-none">&nbsp;
+                <span class="user-select-none">{</span class="user-select-none"><span class="user-select-none">}</span>
+            </div>
+        </div>
+    </div>
+    <button  
+        title="GO TO TOP"
+        class="btn btn-pink-red rounded-circle animate__animated  animate__bounceInDown animate__slow "
+        id="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+    </button>
+    <!-- HEADER -->
+    <div class="header">
+        <div class="container">
+            <div class="d-flex flex-row justify-content-between ">
+                <div class="d-flex flex-row left-nav">
+                    <!-- <div class="logo">
+                        <a 
+                            href="index.html" 
+                            class="nav-link logo-link"
+                            title="Avinash Dengani">
+                                <img 
+                                    src="assets/images/logo/dark.png" 
+                                    alt="logo-dark" 
+                                    class="logo-img">
+                        </a>
+                    </div> -->
+                </div>
+                <div class="d-flex flex-row right-nav">
+                    <ul class="nav my-nav-list">
+                        <!-- ABOUT ME -->
+                        <li class="nav-item my-nav-item">
+                            <a class="nav-link active my-nav-link" href="#about" id="nav-about">About <i class="fas fa-user-graduate "></i></a>
+                        </li>
+                        <!-- My Projects -->
+                        <li class="nav-item my-nav-item">
+                            <a class="nav-link active my-nav-link" href="#projects" id="nav-project">Projects <i class="fas fa-tasks "></i></a>
+                        </li>
+                        <!-- My Skills -->
+                        <li class="nav-item my-nav-item">
+                            <a class="nav-link active my-nav-link" href="#skills" id="nav-skills">Skills <i class="fas fa-chart-area"></i></a>
+                        </li>
+                        <!-- My EDUCATION -->
+                        <li class="nav-item my-nav-item">
+                            <a class="nav-link active my-nav-link" href="#education" id="nav-education">Education <i class="fas fa-university "></i></a>
+                        </li>
+                        <!-- My Contact -->
+                        <li class="nav-item my-nav-item">
+                            <a class="nav-link active my-nav-link" href="#contact" id="nav-contact">Contact <i class="fas fa-phone-square-alt"></i></a>
+                        </li>
+                        <!-- Resume -->
+                        <li class="nav-item my-nav-item">
+                            <a class="nav-link active my-nav-link" target="_blank" href="assets/resume/resume.pdf">Resume <i class="fas fa-file-contract"></i></a>
+                        </li>
+                        <li class="nav-item my-nav-item switch-color">
+                            <div class="nav-link">
+                                <label class="switch-color-mode">
+                                    <div class="switch-color-mode-checkbox">
+                                    <input type="checkbox" class="switch-color-mode-checkbox-input" checked/>
+                                    <span class="switch-color-mode-slider round"><i class="fa fa-adjust"></i></span>
+                                    </div>
+                                </label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="media-navbar">
+                    <div class="d-flex flex-column media-right-nav nav-link align-items-end">
+                        <div class="media-right-nav-hamburgar">
+                            <span class="media-right-nav-hamburgar-icon_bar"></span>
+                            <span class="media-right-nav-hamburgar-icon_bar"></span>
+                            <span class="media-right-nav-hamburgar-icon_bar"></span>
+                        </div>
+                        <div class="media-right-nav-list d-none">
+                            <ul class="nav my-nav-list-media d-flex flex-column">
+                                <!-- DARK MODE BUTTON -->
+                                <li class="nav-item my-nav-item switch-color">
+                                    <div class="nav-link">
+                                        <label class="switch-color-mode">
+                                            <div class="switch-color-mode-checkbox">
+                                            <input type="checkbox" class="switch-color-mode-checkbox-input" checked/>
+                                            <span class="switch-color-mode-slider round"><i class="fa fa-adjust"></i></span>
+                                            </div>
+                                        </label>
+                                    </div>
+                                </li>
+                                <!-- ABOUT ME -->
+                                <li class="nav-item my-nav-item nav-item-media">
+                                    <a class="nav-link my-nav-link nav-link-media" href="#about" id="media-nav-about">About <i class="fas fa-user-graduate "></i></a>
+                                </li>
+                                <!-- My Projects -->
+                                <li class="nav-item my-nav-item nav-item-media">
+                                    <a class="nav-link my-nav-link nav-link-media" href="#projects" id="media-nav-project">Projects <i class="fas fa-tasks "></i></a>
+                                </li>
+                                <!-- My Skills -->
+                                <li class="nav-item my-nav-item nav-item-media">
+                                    <a class="nav-link my-nav-link nav-link-media" href="#skills" id="media-nav-skills">Skills <i class="fas fa-chart-area"></i></a>
+                                </li>
+                                <!-- My Education -->
+                                <li class="nav-item my-nav-item nav-item-media">
+                                    <a class="nav-link my-nav-link nav-link-media" href="#education" id="media-nav-education">Education <i class="fas fa-university "></i></a>
+                                </li>
+                                <!-- My Contact -->
+                                <li class="nav-item my-nav-item nav-item-media">
+                                    <a class="nav-link my-nav-link nav-link-media" href="#contact" id="media-nav-contact">Contact <i class="fas fa-phone-square-alt"></i></a>
+                                </li>
+                                <!-- Resume -->
+                                <li class="nav-item my-nav-item nav-item-media">
+                                    <a class="nav-link my-nav-link nav-link-media" target="_blank" href="assets/resume/resume.pdf" id="media-nav-resume">Resume <i class="fas fa-file-contract"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container">
+        <!-- ABOUT SECTION -->
+        <section class="about reveal" id="about">
+            <div class="d-flex flex-column align-items-center about-content">
+                <div class="about-content-headings">
+                    <div class="headings">
+                        <h1 class="color-primary headings-text">About</h1>
+                        <span class="headings-underline"></span>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-between about-content-data">
+                    <div class="col-md-6 d-flex flex-column about-content-data-column justify-content-center">
+                        <div class="about-content-data-column-child">
+                            <h2 class="color-primary">Hi👋, I'm 
+                                <span class="color-pink-red">Swaraj Gadhave</span>.
+                            </h2>
+                            <h2 class="color-primary">I'm
+                                <span 
+                                    class="typer color-pink-red" 
+                                    id="typer" 
+                                    data-words="a Web Developer." 
+                                    data-delay="100"
+                                    data-deleteDelay="1000"> 
+                                </span>
+                                <span 
+                                    class="cursor" 
+                                    data-cursorDisplay="|" 
+                                    data-owner="typer">
+                                </span> 
+                            </h2>
+                            <p>
+                                I am Swaraj Gadhave from Dadar, Mumbai.
+                                I recently completed my Bachelors of Engineering from Lokmanya Tilak College of Engineering in Koparkharine, Navi Mumbai, with a specialisation in Computer Engineering.
+                                My CGPA is 7.8.
+                                I have a deep interest in web development and have completed a few projects.
+                                My short-term objective is to find a job in a reputable organisation, and my long-term goal is to achieve a decent position where I can expand my career, contribute to the organisation.
+                                My interests include reading books, listening to music and gyming.
+                            </p>
+                            <!-- <p>
+                               I am a team player who's adaptable to different enviornments and willing to put his knowledge to take up new challenges.
+                            </p> -->
+                        </div>
+                    </div>
+                    <div class="col-md-6 about-content-data-column d-flex flex-row justify-content-center mt-3">
+                        <div class="card p-3 bg-card rounded shadow-lg">
+                            <img src="assets/images/my-images/img1.jpeg" alt="" class="text-center my-img" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+          <!-- PROJECTS SECTION -->
+          <section class="projects reveal" id="projects" style="position: relative;">
+            <div class="d-flex flex-column align-items-center">
+                <div class="">
+                    <div class="headings">
+                        <h1 class="color-primary headings-text">Projects</h1>
+                        <span class="headings-underline"></span>
+                    </div>
+                </div>
+                <div class="owl-carousel project-cards-media">
+                    <div class="card rounded bg-card p-0 m-0">
+                        <img 
+                            src="assets/images/projects/proj1.jpeg" 
+                            class="card-img-top" 
+                            alt="project-img" 
+                            width="90px" 
+                            height="200px">
+                        <div class="card-body">
+                            <h5 class="card-title color-pink-red text-center">
+                                Smart Irrigation using Iot and AI
+                            </h5>
+                            <p class="card-text color-card m-0 text-center" style="font-size: smaller;">
+                                Smart irrigation using IoT and AI optimizes water usage in agriculture by<strong class="color-pink-red"> integrating sensors, actuators, and AI algorithms.</strong>  It collects data on soil
+                                moisture, temperature, humidity, and weather conditions. 
+                            </p>
+                            <a 
+                                href="https://drive.google.com/drive/u/0/mobile/folders/1x5clGHSZ-ajOqoaawsBGc0IATJxGXnzG?usp=share_link" 
+                                class="nav-link my-nav-link my-nav-link-active text-center"
+                                target="_blank">
+                                Project Report 
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card bg-card p-0 m-0 rounded">
+                        <img 
+                            src="assets/images/projects/proj 2.png" 
+                            class="card-img-top" 
+                            alt="project-img" 
+                            width="90px" 
+                            height="200px">
+                        <div class="card-body">
+                            <h5 class="card-title color-pink-red text-center">
+                                Leave Management System
+                            </h5>
+                            <p class="card-text color-card m-0 text-center" style="font-size: smaller;">
+                                It is a education or organizational<strong class="color-pink-red"> web application</strong> which can be use too apply
+                                approve the leave application of a user. The web application had a unique identity for every entity and was online based
+                                using drive to web. 
+                            </p>
+                             
+                            <a 
+                                href="https://github.com/swarajgadhave/Leave-Management-System/tree/main" 
+                                class="nav-link my-nav-link my-nav-link-active text-center"
+                                target="_blank">
+                                Github Link 
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card rounded bg-card p-0 m-0">
+                        <img 
+                            src="assets/images/projects/proj 3.png" 
+                            class="card-img-top" 
+                            alt="project-img" 
+                            width="90px" 
+                            height="200px">
+                        <div class="card-body">
+                            <h5 class="card-title color-pink-red text-center">
+                                Portfolio Website
+                            </h5>
+                            <p class="card-text color-card m-0 text-center" style="font-size: smaller;">
+                            As this my Personal Project I'm currently working on ,In this I have Utilized <strong class="color-pink-red">Html
+                                and CSS </strong> for the front end and customization of the Website .And for the backend of the website I have used <strong class="color-pink-red">JavaScript </strong>
+                            </p>
+                               
+                            <a 
+                                href="https://drive.google.com/file/d/11yYk_6yf6hz8iCKytO9Wp3leTiYmjgR6/view?usp=sharing" 
+                                class="nav-link my-nav-link my-nav-link-active text-center"
+                                target="_blank">
+                                Github Link 
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="card rounded bg-card p-0 m-0">
+                        <img 
+                            src="assets/images/projects/proj 4.png" 
+                            class="card-img-top" 
+                            alt="project-img" 
+                            width="90px" 
+                            height="200px">
+                        <div class="card-body">
+                            <h5 class="card-title color-pink-red text-center">
+                                Books4MU
+                            </h5>
+                            <p class="card-text color-card m-0 text-center" style="font-size: smaller;">
+                                An Online book store website where you can <strong class="color-pink-red">buy </strong> books.
+                            </p>
+                            <a 
+                                href="https://drive.google.com/file/d/1WHH_D6bXSVk6FKFBMBGUISQ-OSYFZnUh/view?usp=sharing" 
+                                class="nav-link my-nav-link my-nav-link-active text-center"
+                                target="_blank">
+                                Project Report 
+                            </a>
+                        </div>
+                    </div> -->
+
+                </div>
+            </div>
+
+            <ul class="project-cards owl-carousel d-none">
+                <li class="project-card">
+                    <img src="assets/images/projects/restApi.png" class="project-card__image" alt="project-card__image" height="400px" width="190px"/>
+                    <div class="project-card__overlay">
+                      <div class="project-card__header">
+                        <svg class="project-card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+                        <div class="project-card__header-text d-flex flex-row justify-content-center">
+                          <h5 class="project-card__title color-pink-red">Smart Irrigation using Iot and AI</h5>
+                        </div>
+                      </div>
+                      <p class="card-text color-card m-0 text-center" style="font-size: smaller;">
+                        Smart irrigation using IoT and AI optimizes water usage in agriculture by<strong class="color-pink-red"> integrating sensors, actuators, and AI algorithms.</strong>  It collects data on soil
+                        moisture, temperature, humidity, and weather conditions. 
+                    </p>
+                      <a href="https://drive.google.com/drive/u/0/mobile/folders/1x5clGHSZ-ajOqoaawsBGc0IATJxGXnzG?usp=share_link" class="nav-link my-nav-link my-nav-link-active text-center mb-2" target="_blank">Project Report</a>
+                    </div>      
+                </li>
+
+                <li class="project-card">
+                    <img src="assets/images/projects/WebAcquire.png" class="project-card__image" alt="project-card__image" height="400px" width="190px"/>
+                    <div class="project-card__overlay">
+                        <div class="project-card__header">
+                            <svg class="project-card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+                            <div class="project-card__header-text d-flex flex-row justify-content-center">
+                                <h5 class="project-card__title color-pink-red">Leave Management System</h5>
+                            </div>
+                        </div>
+                        <p class="card-text color-card m-0 text-center" style="font-size: smaller;">
+                            It is a education or organizational<strong class="color-pink-red"> web application</strong> which can be use too apply
+                            approve the leave application of a user. The web application had a unique identity for every entity and was online based
+                            using drive to web. 
+                        </p>
+                        <a href="https://github.com/CodeStackers99/WebAcquire" class="nav-link my-nav-link my-nav-link-active text-center mb-2" target="_blank">Explore on Github</a>
+                    </div>  
+                </li>
+
+                <li class="project-card">
+                    <img src="assets/images/projects/BakeNFlake.png" class="project-card__image" alt="project-card__image" height="400px" width="190px"/>
+                    <div class="project-card__overlay">
+                        <div class="project-card__header">
+                            <svg class="project-card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+                            <div class="project-card__header-text d-flex flex-row justify-content-center">
+                                <h5 class="project-card__title color-pink-red ">Portfolio Website</h5>
+                            </div>
+                        </div>
+                        <p class="card-text color-card m-0 text-center" style="font-size: smaller;">
+                            As this my Personal Project I'm currently working on ,In this I have Utilized <strong class="color-pink-red">Html
+                                and CSS </strong> for the front end and customization of the Website .And for the backend of the website I have used <strong class="color-pink-red">JavaScript </strong>
+                            </p>
+                        <a href="https://github.com/avinashdengani/Bake-N-Flake" class="nav-link my-nav-link my-nav-link-active text-center mb-2" target="_blank">Explore on Github</a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+          <!-- MY SKILLS SECTION -->
+          <section class="skills reveal" id="skills">
+            <div class="d-flex flex-column align-items-center">
+                <div class="">
+                    <div class="headings">
+                        <h1 class="color-primary headings-text">Skills</h1>
+                        <span class="headings-underline"></span>
+                    </div>
+                </div>
+                <div id="tabs" class="bg-card p-2 rounded" style="width: 100%;">
+                    <ul class="p-0 m-0 nav nav-tabs tabs-list">
+                        <li class="nav-item tabs-list-item">
+                            <a href="#technical-tab" class="nav-link color-pink-red active">
+                                Technical Skills
+                            </a>
+                        </li>
+                        <li class="nav-item tabs-list-item">
+                            <a href="#spoken-tab" class="nav-link color-pink-red">
+                                Spoken Languages
+                            </a>
+                        </li>
+                        <li class="nav-item tabs-list-item">
+                            <a href="#soft-skills-tab" class="nav-link color-pink-red">
+                                Soft Skills
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div id="technical-tab" class="d-flex flex-row justify-content-between tab-content">
+                        <div class="col-md-5">
+                            
+                            <div class="technical-tab mt-4">
+                                <h5 class="color-card text-uppercase">JAVA</h5>
+                                <div class="progress bg-primary">
+                                    <div 
+                                        class="progress-bar progress-bar-striped bg-danger" 
+                                        role="progressbar" 
+                                        style="width: 80%" 
+                                        aria-valuenow="100" 
+                                        aria-valuemin="0" 
+                                        aria-valuemax="100">
+                                    80%</div>
+                                </div>
+                            </div>
+                            <div class="technical-tab mt-4">
+                                <h5 class="color-card text-uppercase">HTML</h5>
+                                <div class="progress bg-primary">
+                                    <div 
+                                        class="progress-bar progress-bar-striped bg-danger" 
+                                        role="progressbar" 
+                                        style="width: 65%" 
+                                        aria-valuenow="100" 
+                                        aria-valuemin="0" 
+                                        aria-valuemax="100">
+                                    65%</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 ">
+                            
+                            <div class="technical-tab mt-4">
+                                <h5 class="color-card text-uppercase">CSS</h5>
+                                <div class="progress bg-primary">
+                                    <div 
+                                        class="progress-bar progress-bar-striped bg-danger" 
+                                        role="progressbar" 
+                                        style="width: 60%" 
+                                        aria-valuenow="100" 
+                                        aria-valuemin="0" 
+                                        aria-valuemax="100">
+                                    60%</div>
+                                </div>
+                            </div>
+                   
+                            <div class="technical-tab mt-4">
+                                <h5 class="color-card text-uppercase">SQL</h5>
+                                <div class="progress bg-primary">
+                                    <div 
+                                        class="progress-bar progress-bar-striped bg-danger" 
+                                        role="progressbar" 
+                                        style="width: 85%" 
+                                        aria-valuenow="100" 
+                                        aria-valuemin="0" 
+                                        aria-valuemax="100">
+                                    85%</div>
+                                </div>
+                            </div>
+                         
+                        </div>
+                    </div>
+                    <div id="spoken-tab" class="justify-content-between tab-content">
+                        <div class="col-md-5">
+                            <div class="technical-tab mt-4">
+                                <h5 class="color-card text-uppercase">ENGLISH</h5>
+                                <div class="progress bg-primary">
+                                    <div 
+                                        class="progress-bar progress-bar-striped bg-danger" 
+                                        role="progressbar" 
+                                        style="width: 85%" 
+                                        aria-valuenow="100" 
+                                        aria-valuemin="0" 
+                                        aria-valuemax="100">
+                                    85%</div>
+                                </div>
+                            </div>
+             
+                            <div class="technical-tab mt-4">
+                                <h5 class="color-card text-uppercase">HINDI</h5>
+                                <div class="progress bg-primary">
+                                    <div 
+                                        class="progress-bar progress-bar-striped bg-danger" 
+                                        role="progressbar" 
+                                        style="width: 80%" 
+                                        aria-valuenow="100" 
+                                        aria-valuemin="0" 
+                                        aria-valuemax="100">
+                                    80%</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 ">
+                            <div class="technical-tab mt-4">
+                                <h5 class="color-card text-uppercase">MARATHI</h5>
+                                <div class="progress bg-primary">
+                                    <div 
+                                        class="progress-bar progress-bar-striped bg-danger" 
+                                        role="progressbar" 
+                                        style="width: 80%" 
+                                        aria-valuenow="100" 
+                                        aria-valuemin="0" 
+                                        aria-valuemax="100">
+                                    80%</div>
+                                </div>
+                            </div>
+                  
+                        </div>
+                    </div>
+                    <div id="soft-skills-tab" class="justify-content-between tab-content">
+                        <div class="col-md-5">
+                            <div class="technical-tab mt-4">
+                                <h5 class="color-card text-uppercase">FLEXIBLE</h5>
+                                <div class="progress bg-primary">
+                                    <div 
+                                        class="progress-bar progress-bar-striped bg-danger" 
+                                        role="progressbar" 
+                                        style="width: 88%" 
+                                        aria-valuenow="100" 
+                                        aria-valuemin="0" 
+                                        aria-valuemax="100">
+                                    88%</div>
+                                </div>
+                            </div>
+                            <div class="technical-tab mt-4">
+                                <h5 class="color-card text-uppercase">TEAM WORK</h5>
+                                <div class="progress bg-primary">
+                                    <div 
+                                        class="progress-bar progress-bar-striped bg-danger" 
+                                        role="progressbar" 
+                                        style="width: 90%" 
+                                        aria-valuenow="100" 
+                                        aria-valuemin="0" 
+                                        aria-valuemax="100">
+                                    90%</div>
+                                </div>
+                            </div>
+                            <div class="technical-tab mt-4">
+                                <h5 class="color-card text-uppercase">PUNCTUAL</h5>
+                                <div class="progress bg-primary">
+                                    <div 
+                                        class="progress-bar progress-bar-striped bg-danger" 
+                                        role="progressbar" 
+                                        style="width: 85%" 
+                                        aria-valuenow="100" 
+                                        aria-valuemin="0" 
+                                        aria-valuemax="100">
+                                    85%</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 ">
+                            <div class="technical-tab mt-4">
+                                <h5 class="color-card text-uppercase">LEADERSHIP</h5>
+                                <div class="progress bg-primary">
+                                    <div 
+                                        class="progress-bar progress-bar-striped bg-danger" 
+                                        role="progressbar" 
+                                        style="width: 85%" 
+                                        aria-valuenow="100" 
+                                        aria-valuemin="0" 
+                                        aria-valuemax="100">
+                                    85%</div>
+                                </div>
+                            </div>
+                            <div class="technical-tab mt-4">
+                                <h5 class="color-card text-uppercase">Time-management</h5>
+                                <div class="progress bg-primary">
+                                    <div 
+                                        class="progress-bar progress-bar-striped bg-danger" 
+                                        role="progressbar" 
+                                        style="width: 90%" 
+                                        aria-valuenow="100" 
+                                        aria-valuemin="0" 
+                                        aria-valuemax="100">
+                                    90%</div>
+                                </div>
+                            </div>
+                            <div class="technical-tab mt-4">
+                                <h5 class="color-card text-uppercase">Communication skills</h5>
+                                <div class="progress bg-primary">
+                                    <div 
+                                        class="progress-bar progress-bar-striped bg-danger" 
+                                        role="progressbar" 
+                                        style="width: 85%" 
+                                        aria-valuenow="100" 
+                                        aria-valuemin="0" 
+                                        aria-valuemax="100">
+                                    85%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                
+                <div class="accordion " id="parent-accordion" style="width: 100%;">
+                    <div class="accordion-item bg-card">
+                        <h2 class="accordion-header" id="technical-header">
+                          <button 
+                                class="accordion-button color-pink-red" 
+                                type="button" 
+                                data-bs-toggle="collapse" 
+                                data-bs-target="#technical-collapse" 
+                                aria-expanded="true"
+                                aria-controls="#technical-collapse">
+                                Technical Skills
+                          </button>
+                        </h2>
+                        <div 
+                            id="technical-collapse" 
+                            class="accordion-collapse collapse show" 
+                            aria-labelledby="technical-header" 
+                            data-bs-parent="#parent-accordion">
+                          <div class="accordion-body">
+                            <div id="technical-tab" class="d-flex flex-column justify-content-between">
+                        
+                                <div class="mt-4">
+                                    <h5 class="color-card text-uppercase">JAVA</h5>
+                                    <div class="progress bg-primary">
+                                        <div 
+                                            class="progress-bar progress-bar-striped bg-danger" 
+                                            role="progressbar" 
+                                            style="width: 80%" 
+                                            aria-valuenow="100" 
+                                            aria-valuemin="0" 
+                                            aria-valuemax="100">
+                                        80%</div>
+                                    </div>
+                                </div>
+
+                                <div class="mt-4">
+                                    <h5 class="color-card text-uppercase">HTML</h5>
+                                    <div class="progress bg-primary">
+                                        <div 
+                                            class="progress-bar progress-bar-striped bg-danger" 
+                                            role="progressbar" 
+                                            style="width: 65%" 
+                                            aria-valuenow="100" 
+                                            aria-valuemin="0" 
+                                            aria-valuemax="100">
+                                        65%</div>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <h5 class="color-card text-uppercase">CSS</h5>
+                                    <div class="progress bg-primary">
+                                        <div 
+                                            class="progress-bar progress-bar-striped bg-danger" 
+                                            role="progressbar" 
+                                            style="width: 60%" 
+                                            aria-valuenow="100" 
+                                            aria-valuemin="0" 
+                                            aria-valuemax="100">
+                                        60%</div>
+                                    </div>
+                                </div>
+                         
+                                <div class="mt-4">
+                                    <h5 class="color-card text-uppercase">SQL</h5>
+                                    <div class="progress bg-primary">
+                                        <div 
+                                            class="progress-bar progress-bar-striped bg-danger" 
+                                            role="progressbar" 
+                                            style="width: 85%" 
+                                            aria-valuenow="100" 
+                                            aria-valuemin="0" 
+                                            aria-valuemax="100">
+                                        85%</div>
+                                    </div>
+                                </div>
+                          
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-card">
+                        <h2 class="accordion-header" id="spoken-lang-header">
+                          <button 
+                                class="accordion-button color-pink-red" 
+                                type="button" 
+                                data-bs-toggle="collapse" 
+                                data-bs-target="#spoken-lang-collapse" 
+                                aria-expanded="true" 
+                                aria-controls="#spoken-lang-collapse">
+                                Spoken Languages
+                          </button>
+                        </h2>
+                        <div 
+                            id="spoken-lang-collapse" 
+                            class="accordion-collapse collapse show" 
+                            aria-labelledby="spoken-lang-header" 
+                            data-bs-parent="#parent-accordion">
+                            <div class="accordion-body">
+                                <div class="mt-4">
+                                    <h5 class="color-card text-uppercase">ENGLISH</h5>
+                                    <div class="progress bg-primary">
+                                        <div 
+                                            class="progress-bar progress-bar-striped bg-danger" 
+                                            role="progressbar" 
+                                            style="width: 85%" 
+                                            aria-valuenow="100" 
+                                            aria-valuemin="0" 
+                                            aria-valuemax="100">
+                                        85%</div>
+                                    </div>
+                                </div>
+                                
+                                <div class="mt-4">
+                                    <h5 class="color-card text-uppercase">HINDI</h5>
+                                    <div class="progress bg-primary">
+                                        <div 
+                                            class="progress-bar progress-bar-striped bg-danger" 
+                                            role="progressbar" 
+                                            style="width: 80%" 
+                                            aria-valuenow="100" 
+                                            aria-valuemin="0" 
+                                            aria-valuemax="100">
+                                        80%</div>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <h5 class="color-card text-uppercase">MARATHI</h5>
+                                    <div class="progress bg-primary">
+                                        <div 
+                                            class="progress-bar progress-bar-striped bg-danger" 
+                                            role="progressbar" 
+                                            style="width: 80%" 
+                                            aria-valuenow="100" 
+                                            aria-valuemin="0" 
+                                            aria-valuemax="100">
+                                        80%</div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-card">
+                        <h2 class="accordion-header" id="soft-skills-header">
+                          <button 
+                                class="accordion-button color-pink-red" 
+                                type="button" 
+                                data-bs-toggle="collapse" 
+                                data-bs-target="#soft-skills-collapse" 
+                                aria-expanded="true" 
+                                aria-controls="#soft-skills-collapse">
+                                Soft Skills
+                          </button>
+                        </h2>
+                        <div 
+                            id="soft-skills-collapse" 
+                            class="accordion-collapse collapse show" 
+                            aria-labelledby="soft-skills-header" 
+                            data-bs-parent="#parent-accordion">
+                            <div class="accordion-body">
+                                <div class="mt-4">
+                                    <h5 class="color-card text-uppercase">FLEXIBLE</h5>
+                                    <div class="progress bg-primary">
+                                        <div 
+                                            class="progress-bar progress-bar-striped bg-danger" 
+                                            role="progressbar" 
+                                            style="width: 88%" 
+                                            aria-valuenow="100" 
+                                            aria-valuemin="0" 
+                                            aria-valuemax="100">
+                                        88%</div>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <h5 class="color-card text-uppercase">TEAM WORK</h5>
+                                    <div class="progress bg-primary">
+                                        <div 
+                                            class="progress-bar progress-bar-striped bg-danger" 
+                                            role="progressbar" 
+                                            style="width: 90%" 
+                                            aria-valuenow="100" 
+                                            aria-valuemin="0" 
+                                            aria-valuemax="100">
+                                        90%</div>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <h5 class="color-card text-uppercase">PUNCTUAL</h5>
+                                    <div class="progress bg-primary">
+                                        <div 
+                                            class="progress-bar progress-bar-striped bg-danger" 
+                                            role="progressbar" 
+                                            style="width: 85%" 
+                                            aria-valuenow="100" 
+                                            aria-valuemin="0" 
+                                            aria-valuemax="100">
+                                        85%</div>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <h5 class="color-card text-uppercase">LEADERSHIP</h5>
+                                    <div class="progress bg-primary">
+                                        <div 
+                                            class="progress-bar progress-bar-striped bg-danger" 
+                                            role="progressbar" 
+                                            style="width: 85%" 
+                                            aria-valuenow="100" 
+                                            aria-valuemin="0" 
+                                            aria-valuemax="100">
+                                        85%</div>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <h5 class="color-card text-uppercase">Time-management</h5>
+                                    <div class="progress bg-primary">
+                                        <div 
+                                            class="progress-bar progress-bar-striped bg-danger" 
+                                            role="progressbar" 
+                                            style="width: 90%" 
+                                            aria-valuenow="100" 
+                                            aria-valuemin="0" 
+                                            aria-valuemax="100">
+                                        90%</div>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <h5 class="color-card text-uppercase">Communication skills</h5>
+                                    <div class="progress bg-primary">
+                                        <div 
+                                            class="progress-bar progress-bar-striped bg-danger" 
+                                            role="progressbar" 
+                                            style="width: 85%" 
+                                            aria-valuenow="100" 
+                                            aria-valuemin="0" 
+                                            aria-valuemax="100">
+                                        85%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION SECTION-->
+        <section class="education reveal" id="education">
+            <div class="d-flex flex-column align-items-center">
+                <div class="">
+                    <div class="headings">
+                        <h1 class="color-primary headings-text">Education</h1>
+                        <span class="headings-underline"></span>
+                    </div>
+                </div>
+                <div class="education-content d-flex flex-row justify-content-evenly col-md-12">
+                    <div class="card rounded bg-card col-md-3 d-flex mt-4 flex-column align-items-center">
+                        <img 
+                            src="assets/images/education/graduateWhite.png" 
+                            class="text-center"
+                            id="education-img-graduation" 
+                            alt="education-img" 
+                            width="220px" 
+                            height="120px">
+                        <div class="card-body">
+                            <h5 class="card-title color-pink-red text-center">
+                                Undergraduate
+                            </h5>
+                            <p style="font-size: smaller;" class="card-text color-card m-0 text-center"><span class="color-pink-red">2019-</span>2023</p>
+                            <p class="card-text color-card m-0 text-center" style="font-size: small;">
+                                <span class="color-pink-red">Mumbai</span> University
+                                <span class="color-pink-red d-inline-block">Lokmanya Tilak</span> Enginnering College, Navi Mumbai
+                            </p>
+                            <p class="card-text color-card m-0 text-center" style="font-size: small;">
+                                <span class="color-pink-red">B.E in </span>Computer Engineering
+                                <span class="color-pink-red d-inline-block">C.G.P.A</span> 7.8
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card rounded bg-card p-2 col-md-3 d-flex mt-4 flex-column align-items-center">
+                        <img 
+                            src="assets/images/education/hscWhite.png" 
+                            class="text-center"
+                            id="education-img-hsc" 
+                            alt="education-img-hsc" 
+                            width="220px" 
+                            height="120px">
+                        <div class="card-body">
+                            <h5 class="card-title color-pink-red text-center">
+                                Higher Secondary School
+                            </h5>
+                            <p style="font-size: smaller;" class="card-text color-card m-0 text-center"><span class="color-pink-red">2017-</span>2019</p>
+                            <p class="card-text color-card m-0 text-center" style="font-size: small;">
+                                <span class="color-pink-red">Maharashtra </span> State Board
+                                <span class="color-pink-red d-inline-block">B.H. CHATE</span>
+                            </p>
+                            <p class="card-text color-card m-0 text-center" style="font-size: small;">
+                                <span class="color-pink-red d-inline-block">Percentage</span> 68%
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card rounded bg-card p-2 col-md-3 d-flex mt-4 flex-column align-items-center">
+                        <img 
+                            src="assets/images/education/sscWhite.png" 
+                            class="text-center"
+                            id="education-img-ssc" 
+                            alt="education-img" 
+                            width="220px" 
+                            height="120px">
+                        <div class="card-body">
+                            <h5 class="card-title color-pink-red text-center">
+                                Secondary School
+                            </h5>
+                            <p style="font-size: smaller;" class="card-text color-card m-0 text-center"><span class="color-pink-red">2017</span></p>
+                            <p class="card-text color-card m-0 text-center" style="font-size: small;">
+                                <span class="color-pink-red d-inline-block" style="font-size: small;">Maharashtra</span> State Board
+                                <p style="font-size: small;" class="color-card m-0 text-center"><span class="color-pink-red" style="font-size: small;">I.E.S King George</span> </p>
+                            </p>
+                            <p class="card-text color-card m-0 text-center" style="font-size: small;">
+                                <span class="color-pink-red d-inline-block">Percentage</span> 74.80 %
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CONTACT SECTION-->
+        <section class="contact reveal" id="contact">
+            <div class="d-flex flex-column align-items-center">
+                <div class="">
+                    <div class="headings">
+                        <h1 class="color-primary headings-text">Contact</h1>
+                        <span class="headings-underline"></span>
+                    </div>
+                </div>
+                <div class="d-flex flex-column">
+                    <div class="d-flex flex-row justify-content-center col-md-12">
+                        <ul class="d-flex flex-row justify-content-between contact-details align-items-center">
+                            <li class="color-primary"><a href="mailto:gadhaveswaraj2002@gmail.co
+                                m" class="nav-link color-primary mr-1 pr-1"><i class="fa fa-envelope color-pink-red"></i> gadhaveswaraj2002@gmail.co
+                                m</a></li>
+                            <li class="color-primary"><a href="tel:+918104392364" class="nav-link color-primary ml-1 pl-1"><i class="fa fa-phone-alt color-pink-red"></i> +91 8104392364</a></li>
+                        </ul>
+                    </div>
+                    <div class="contact-content d-flex flex-row justify-content-center">
+                        <form id="contact-form" action="https://formspree.io/f/moqrvqyv" method="POST" class="d-flex flex-column col-md-12">
+                            <label for="full-name" class="form-label mt-1">Name</label>
+                            <input type="text" name="name" id="full-name" class="form-control" placeholder="Enter your name" >
+                            
+                            <label for="email-address" class="form-label mt-1">Email Address</label>
+                            <input type="email" name="email" id="email-address" class="form-control" placeholder="email@example.com" >
+                            
+                            <label for="message" class="form-label mt-1">Message</label>
+                            <textarea 
+                                class="form-control"
+                                rows="5" 
+                                name="message" 
+                                id="message" 
+                                placeholder="Enter you message here..." 
+                                ></textarea>
+                            
+                            <button id="contact-form-button" class="btn btn-pink-red mt-2" type="submit" >Submit </button>
+                            <div class="d-flex flex-row justify-content-center">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <!-- FOOTER -->
+    <footer class="pt-3 pb-3 mt-3 shadow">
+        <div class="container">
+            <div class="d-flex flex-row justify-content-between align-items-center">
+                <h6><span class="color-pink-red">Swaraj</span> Gadhave &copy 2023</h6>
+                <div class="links">
+                    <ul class="d-flex flex-row">
+                        <li>
+                            <a class="nav-link my-nav-link p-1 m-1" href="https://github.com/swarajgadhave" title="GitHub"><i class="fab fa-github"></i></a>
+                        </li>
+                        <li>
+                            <a class="nav-link my-nav-link p-1 m-1" href="https://www.linkedin.com/in/swaraj-gadhave-01260a213/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        </li>
+                        <!-- <li>
+                            <a title="Facebook" class="nav-link my-nav-link p-1 m-1" href="#"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a title="Instagram" class="nav-link my-nav-link p-1 m-1" href="#"><i class="fab fa-instagram"></i></a>
+                        </li> -->
+                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>    
+    
+    <!-- JAVASCRIPT -->
+
+    <!-- BOOTSTRAP -->
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+        crossorigin="anonymous">
+    </script>   
+    <!-- JQUERY -->
+    <script 
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" 
+        referrerpolicy="no-referrer">
+    </script>
+    <!-- JQEURY UI -->
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    <!-- TYPER.JS -->
+    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+    <!-- OEL Carousel 2 -->
+    <script 
+        src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" 
+        referrerpolicy="no-referrer">
+    </script>
+    <!-- Responsive Tabs -->
+    <script src="assets/js/vendors/jquery.responsiveTabs.min.js"></script>
+    <!-- JQEURY SMOOTH SCROLL -->
+    <script src="assets/js/vendors/jquery.smooth-scroll.js"></script>
+    <!-- JQEURY VALIDATION PLUGIN -->
+    <script src="assets/js/vendors/jquery.validate.min.js"></script>
+    <!-- WAYPOINTS -->
+    <script src="assets/js/vendors/noframework.waypoints.min.js"></script>
+    <!-- MY SMOOTH SCROLL CLASS -->
+    <script src="assets/js/SmoothScroll.js"></script>
+    <!-- MY WAYPOINTS -->
+    <script src="assets/js/MyWaypoints.js"></script>
+    <!-- REVEAL ON SCROLL -->
+    <script src="assets/js/RevealOnScroll.js"></script>
+    <!-- FONT AWESOME -->
+    <script src="assets/js/fontawesome.all.js"></script>
+    <!-- GROWL -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jgrowl/1.4.8/jquery.jgrowl.min.js" integrity="sha512-h77yzL/LvCeAE601Z5RzkoG7dJdiv4KsNkZ9Urf1gokYxOqtt2RVKb8sNQEKqllZbced82QB7+qiDAmRwxVWLQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- CUSTOM JS -->
+    <script src="assets/js/script.js"></script>
+    
+    <script>
+        // PRELOADER
+        $(window).on('load', function() {
+            $('#status').delay(2500).fadeOut();
+            $('#preloader').delay(2500).fadeOut('slow');
+        });
+    </script>
+    <script>
+
+        // CONTACT-FORM
+        let contactForm = $("#contact-form");
+
+        // CONTACT FORM VALIDATIONS
+        $("#contact-form").validate({
+            rules: {
+                name: {
+                    required: true,
+                    maxlength: 16
+                },
+                email: {
+                    required: true,
+                    email: true
+                },
+                message: {
+                    required: true
+                }
+            },
+            errorElement: 'p',
+            errorPlacement: function(error, element) {
+                if (error) {
+                    error.insertAfter(element);
+                    error.addClass('text-danger');
+                }
+            },
+            submitHandler: function(form) {
+                let formAction = "https://formspree.io/f/moqrvqyv";
+                contactForm.attr("action", formAction);
+                $("#contact-form-button").html("<i class='spinner-border text-light'></i>");
+                $("#contact-form-button").attr("disabled", true);
+                $.ajax({
+                    url: form.action,
+                    type: form.method,
+                    headers: {
+                        'Accept': 'application/json'
+                    },
+                    data: $(form).serialize(),
+                    success: function(response) {
+                        contactForm.trigger("reset");
+                        popUpMessage('bg-success text-white border-success', "Form submitted successfully. Thanks for your submission." );
+                        statusReset();
+                    },
+                    error: function(error) {
+                        popUpMessage('bg-danger text-white border-danger', "Something went wrong. Try again later." );
+                        statusReset();
+                    }
+                });
+            }
+        });
+
+        function statusReset() {
+            $("#contact-form-button").html("Submit");
+            $("#contact-form-button").attr("disabled", false);
+        }
+        function popUpMessage(colorTheme, message) {
+            $.jGrowl(message,
+                {
+                    theme: colorTheme
+                }
+            );
+        }
+        
+    </script>
+</body>
+</html>
